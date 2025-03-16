@@ -3,7 +3,7 @@ import Home from './pages/Home';
 import Todolist from './components/Todolist';
 import CreateTodo from './components/CreateTodo';
 import EditTodo from './components/EditTodo';
-import { Toaster,toast } from 'sonner';
+import { Toaster} from 'sonner';
 
 const router = createBrowserRouter([
   {path: '/', element: <Home />},
