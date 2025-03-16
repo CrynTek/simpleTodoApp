@@ -5,7 +5,7 @@ import CreateTodo from './components/CreateTodo';
 import EditTodo from './components/EditTodo';
 import { Toaster} from 'sonner';
 
-const router = createHashRouter([ // ✅ Changed to createHashRouter for GitHub Pages compatibility
+const router = createHashRouter([ //  Changed to createHashRouter for GitHub Pages compatibility
   {path: '/', element: <Home />},
   {path: 'todos', element: <Todolist />},
   {path: 'create', element: <CreateTodo />},
@@ -16,7 +16,7 @@ const App = () => {
   return (
     <div>
       <Toaster/>
-      <RouterProvider router={router} /> {/* ✅ Corrected RouterProvider usage */}
+      <RouterProvider router={router} /> {/*  Corrected RouterProvider usage */}
     </div>
   );
 };
